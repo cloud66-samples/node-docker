@@ -1,8 +1,14 @@
 {
   "name": "node-mysql",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.10.6",
     "mysql": "^2.5.4"
+  },
+  "engines": {
+    "node": ">5"
   }
 }
