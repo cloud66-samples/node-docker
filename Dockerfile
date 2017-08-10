@@ -6,6 +6,6 @@ WORKDIR /app
 
 ADD . /app
 
-RUN cd /app; npm install
+RU cd /app; npm install
 
 CMD ["node","index.js"]
